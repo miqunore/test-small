@@ -1,0 +1,66 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body .navbar-default {
+  background-image: none;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  body .navbar-brand {
+    padding-top: 27px;
+  }
+  body .navbar {
+    margin-bottom: 0;
+  }
+  body header .navbar-right li {
+    font-size: 15px;
+    color: #484c55 !important;
+  }
+  body header .navbar-right li a {
+    padding-top: 40px !important;
+    padding-bottom: 0;
+  }
+  body header .navbar-right li a:hover {
+    color: #49cbcd !important;
+    background-color: #f8f9fb !important;
+  }
+  body header .navbar-right li a:after {
+    background-color: transparent;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 40px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  body header .navbar-right li a:hover:after {
+    background-color: #49cbcd;
+    width: 100%;
+  }
+  body .section_carousel {
+    max-width: 1440px;
+    margin: auto;
+  }
+  body .section_carousel .carousel-indicators {
+    display: none;
+  }
+  body .section_carousel .carousel-caption h1 {
+    font-size: 63px;
+    padding-bottom: 45px;
+  }
+  body .section_carousel .carousel-caption h3 {
+    font-size: 23px;
+    padding-bottom: 60px;
+  }
+  body .section_carousel .carousel-caption a {
+    display: inline-block;
+    width: 230px;
+    height: 70px;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 26px;
+    padding-top: 13px;
+    margin-bottom: 85px;
+  }
+}/*# sourceMappingURL=scss-style.css.map */
